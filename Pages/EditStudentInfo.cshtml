@@ -1,0 +1,34 @@
+﻿@page
+@model NewEasyPeasy.Pages.EditStudentInfoModel
+@using System.Data
+@{
+    ViewData["Title"] = "EditStudentInfo";
+}
+<br />
+<br />
+<div class="container">
+    <form method="post">
+        <div class="form-group">
+            <label for="Name" class="font-weight-bold">Name</label>
+            <input type="text" class="form-control" id="Name" asp-for="@Model.Parent.Name" required>
+        </div>
+        <div class="form-group">
+            <label for="ID" class="font-weight-bold">ID</label>
+            <input type="text" class="form-control" id="ID" asp-for="@Model.Parent.UserID" required>
+        </div>
+        <div class="form-group">
+            <label for="email" class="font-weight-bold">Email</label>
+            <input type="email" class="form-control" id="email" asp-for="@Model.Parent.Email" required>
+        </div>
+
+        @*<div class="form-group">
+        <label for="age" class="font-weight-bold">Age</label>
+        <input type="number" class="form-control" id="age" asp-for="@Model.Parent.Age" required>
+        </div>*@
+
+        <button type="submit" class="btn mb-4 mr-2 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)">Update</button>
+        <a class="btn btn-danger mb-4 text-white font-weight-bold" asp-page="/StudentInfo">Cancel</a>
+
+    </form>
+</div>
+

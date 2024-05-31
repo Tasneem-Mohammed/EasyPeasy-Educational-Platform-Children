@@ -1,0 +1,34 @@
+﻿@page
+@model NewEasyPeasy.Pages.LessonsModel
+@{
+}
+<br />
+<br />
+<div class="container-fluid">
+    <h2 class="text-left font-weight-bolder text-black">Courses & Lessons</h2><br />
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th class="text-left font-weight-bolder text-black">Lesson</th>
+                <th class="text-left font-weight-bolder text-black">Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lesson 1</td>
+                <td><a class="btn btn-primary fw-bolder" href="/Alphabetics">ABC</a></td>
+            </tr>
+            <tr>
+                <td>Lesson 2</td>
+                <td><a class="btn btn-warning fw-bolder" href="/Numbers">1 2 3</a></td>
+            </tr>
+            <tr>
+                <td>Lesson 3</td>
+                <td><a class="btn btn-danger fw-bolder" href="/Shapes">Shapes & Colors</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a class="btn mb-4 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)" href="/Index">Go Back</a>
+</div>

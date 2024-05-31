@@ -1,0 +1,22 @@
+﻿@page
+@model EditModel
+@{
+}
+
+    <form method="post">
+        <div class="form-group">
+            <label for="Name" class="font-weight-bold">Name</label>
+            <input type="text" class="form-control" id="Name" value="Current Student Name" required>
+        </div>
+        <div class="form-group">
+            <label for="Age" class="font-weight-bold">Age</label>
+            <input type="number" class="form-control" id="Age" value="5" required>
+        </div>
+        <div class="form-group">
+            <label for="email" class="font-weight-bold">Email</label>
+            <input type="email" class="form-control" id="email" value="Current Student Email" required>
+        </div>
+        <a class="btn mb-4 mr-2 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)" asp-page="/Edit">Edit</a>
+        <a class="btn btn-danger mb-4 text-white font-weight-bold" asp-page="/Update">Edit</a>
+
+    </form>

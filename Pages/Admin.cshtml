@@ -1,0 +1,35 @@
+﻿@page
+@model NewEasyPeasy.Pages.AdminModel
+@{
+    ViewData["Title"] = "Admin";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> NewEasyPeasy</title>
+</head>
+
+<body>
+
+    <div class="container border mb-5 p-3">
+        <div class="row">
+            <div class="col-md-6 border-right">
+                <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                    <a class="btn mb-4 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)" asp-page="/Data">Data</a><br />
+                    <a class="btn mb-4 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)" asp-page="/UserData">View</a>
+                </div>
+            </div>
+            <div class="col-md-6 border-left">
+                <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                    <a class="btn mb-4 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)" asp-page="/Update">Update</a><br />
+                    <a class="btn mb-4 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)" asp-page="/Index">GoHome</a><br />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+

@@ -1,0 +1,73 @@
+﻿
+@page
+@model NewEasyPeasy.Pages.CoursesModel
+@{	
+    ViewData["Title"] = "Courses";
+}
+
+<div class="container-fluid">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #E6E6FA;
+        }
+
+        tr:hover {
+            background-color: #F5F5FD;
+        }
+    </style>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Teacher Name</th>
+                <th>Course</th>
+                <th>Time per Week</th>
+                <th>Link to Course</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>Samah</td>
+                <td>Mathematics</td>
+                <td>
+                    Monday  from 1:10 to 2:10<br />
+                    Wednesday from 1:10 to 2:10
+                </td>
+            <td><a href="https://youtu.be/6RfIKqkvHTY?si=2hY-QyrFSab7fmJO">Counting Song</a></td>
+            </tr>
+            <tr>
+                <td>Tarek</td>
+                <td>Shapes & Colors</td>
+                <td>
+                    Sunday  from 1:10 to 2:10<br />
+                    Tuesday from 1:10 to 2:10
+                </td>
+            <td><a href="https://youtu.be/jr3fjWqC360?si=1Hsq14alMKPVTIEt">Shapes & Colours</a></td>
+            
+            </tr>
+            <tr>
+                <td>Samar</td>
+                <td>English</td>
+			<td>
+				Sunday from 11:40 to 1:10 <br />
+				Thursday  from 1:10 to 2:40
+            </td>
+            <td><a href="https://youtu.be/75p-N9YKqNo?si=8-KnrBt3XUELTqKO">ABC</a></td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

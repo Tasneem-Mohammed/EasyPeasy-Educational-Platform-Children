@@ -1,0 +1,18 @@
+﻿@page
+@model NewEasyPeasy.Pages.RemoveCoursesModel
+@{
+    ViewData["Title"] = "Remove Courses";
+}
+<br />
+<br />
+<div class="container">
+    <form method="post">
+        <div class="form-group">
+            <label for="Name" class="font-weight-bold">Enter the course name you want to remove:</label>
+            <input type="text" class="form-control" id="Name" value="English - ABC" required>
+        </div>
+        <a class="btn mb-4 mr-2 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)" asp-page="/EnrolledCourses">Cancel</a>
+        <a class="btn btn-danger mb-4 text-white font-weight-bold" asp-page="/EnrolledCourses">Remove</a>
+
+    </form>
+</div>

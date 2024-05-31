@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NewEasyPeasy
+build_property.RootNamespace = NewEasyPeasy
+build_property.ProjectDir = C:\Users\tasne\OneDrive\Database -Labs\NewEasyPeasy\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tasne\OneDrive\Database -Labs\NewEasyPeasy
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/StudentInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudEluZm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/AddCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ291cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Alphabetics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxwaGFiZXRpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Courses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Data.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/EditStudentInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN0dWRlbnRJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/EnrolledCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5yb2xsZWRDb3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Lessons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVzc29ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Numbers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/ParentDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFyZW50RGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/RemoveCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVtb3ZlQ291cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Shapes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Sign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/StudentInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/StudentsEnrolled.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNFbnJvbGxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Teacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhY2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/UserData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckRhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tasne/OneDrive/Database -Labs/NewEasyPeasy/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u3qc6jdb1x

@@ -1,0 +1,31 @@
+﻿@*@page
+@model NewEasyPeasy.Pages.SignModel
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<h2 class="fw-bold text-center m-6">Sign In</h2>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form asp-page-handler="SignIn" method="post">
+
+                <div class="mb-3">
+                    <label class="form-label text-black fw-bold" for="email">Email</label>
+                    <input type="text" class="form-control" id="email" asp-for="@Model.Email" required>
+                    <span asp-validation-for="@Model.Email" style="color: red;"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label text-black fw-bold" for="pass">Password</label>
+                    <input type="password" class="form-control" id="pass" asp-for="@Model.password" required>
+                    <span asp-validation-for="@Model.password" style="color: red;"></span>
+                </div>
+
+                <button class="btn btn-primary fw-bold" type="submit" asp-page="/Courses">Sign In</button>
+                <button class="btn btn-primary fw-bold" type="submit" asp-page="/SignUp">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</div>*@

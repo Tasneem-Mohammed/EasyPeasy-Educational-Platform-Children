@@ -1,0 +1,43 @@
+﻿@page
+@model NewEasyPeasy.Pages.EnrolledCoursesModel
+@using System.Data
+@{
+    ViewData["Title"] = "Enrolled Courses";
+}
+
+<br />
+<br />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="text-left font-weight-bolder text-black">Your Child's Courses Info</h2><br />
+            @if (Model.dt.Rows.Count > 0)
+            {
+                <table class="table table-hover">
+                    <tr>
+                        <th class="text-left font-weight-bolder text-black">Course Name</th>
+                        <th class="text-left font-weight-bolder text-black">Course ID</th>
+                        <th class="text-left font-weight-bolder text-black">Quizzes</th>
+                        <th class="text-left font-weight-bolder text-black">Teacher Name</th>
+                    </tr>
+                    @foreach (DataRow row in Model.dt.Rows)
+                    {
+                        <tr>
+                            <td class="text-left font-weight-bold text-black">@row["CourseName"]</td>
+                            <td class="text-left font-weight-bold text-black">@row["CourseID"]</td>
+                            <td class="text-left font-weight-bold text-black">@row["Quiz"]</td>
+                            <td class="text-left font-weight-bold text-black">@row["TeacherName"]</td>
+                        </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>No enrolled courses available.</p>
+            }@*
+            <a class="btn btn-primary mb-2 mr-2 font-weight-bold" asp-page="/AddCourses">Add course</a>
+            <a class="btn btn-primary mb-2 mr-2 font-weight-bold" asp-page="/RemoveCourses">Remove Course</a>*@
+            <a class="btn mb-2 mr-2 text-white font-weight-bold" style="background-color:rgba(94,16,130,255)" asp-page="/ParentDashboard">Go Back</a>
+        </div>
+    </div>
+</div>

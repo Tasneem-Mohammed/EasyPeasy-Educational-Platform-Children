@@ -1,0 +1,53 @@
+﻿@page
+@model NewEasyPeasy.Pages.ParentDashboardModel
+@{
+    ViewData["Title"] = "Parent";
+    <style>
+        .btn-custom-border {
+            border-color: rgba(94, 16, 130, 255);
+            color: rgba(94, 16, 130, 255);
+        }
+
+            .btn-custom-border:hover {
+                color: white; /* Change text color to white on hover */
+                background-color: rgba(94, 16, 130, 255);
+                border-color: rgba(94, 16, 130, 255);
+                text-decoration-color: rgba(94, 16, 130, 255);
+            }
+    </style>
+}
+
+<br />
+<br />
+<h1 class="text-center font-weight-bold ">Parent Dashboard</h1>
+<h1 class="text-center font-weight-bold">Welcome, <a class="text-danger">@Model.ParentName</a></h1>
+<br />
+<br /> <!-- I want to Display the parent name here -->
+<a class="btn font-weight-bold mr-6 mb-4 btn_on-hover btn-custom-border" asp-page="/Index">Back Home</a>
+<div class="container border mb-4 p-3">
+    <div class="row">
+        <!-- right -->
+        <div class="col-md-6 ">
+            <h2 class="font-weight-bold">Student Info</h2><br /><br />
+            <a class="btn mb-2 text-white btn_on-hover" style="background-color:rgba(94,16,130,255)" asp-page="/StudentInfo">View Your child Info</a><br /><br />
+        </div>
+
+        <!-- Second Container -->
+        <div class="col-md-6">
+            <h2 class="font-weight-bold">Student Progress</h2><br /><br />
+            <a class="btn mb-2 text-white btn_on-hover " style="background-color:rgba(94,16,130,255)" asp-page="/EnrolledCourses">View Enrolled courses</a><br />
+
+            @*<p>CHART OF STUDENT PROGRESS SHOULD BE  HERE</p>*@
+            @*  <div class="chart-container" width="600" height="400">
+            <canvas id="barChart"></canvas>
+            </div>
+            <script type="module">
+            document.addEventListener('DOMContentLoaded', (event) => {
+            var ctx = document.getElementById('barChart');
+            var myChart = new Chart(ctx, @Html.Raw(Model.ChartJson) );
+            });
+            </script>*@
+
+        </div>
+    </div>
+</div>
